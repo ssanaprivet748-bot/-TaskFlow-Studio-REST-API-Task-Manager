@@ -1,0 +1,34 @@
+/* Конфигурация темы Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-dark-bg { background-color: #090d16; }
+    .bg-dark-card { background-color: #111726; }
+    .border-dark-border { border-color: #1f293d; }
+    .bg-brand-500 { background-color: #6366f1; }
+    .bg-brand-600 { background-color: #4f46e5; }
+}
+
+body { 
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+}
+
+.glass { 
+    background: rgba(17, 23, 38, 0.75); 
+    backdrop-filter: blur(16px); 
+}
+
+.custom-scrollbar::-webkit-scrollbar { 
+    width: 6px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-track { 
+    background: transparent; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb { 
+    background: #1f293d; 
+    border-radius: 9999px; 
+}
