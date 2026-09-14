@@ -26,7 +26,8 @@
 ## ⚙️ Инструкция по локальному запуску
 
 ### 1. Клонирование репозитория
-git clone https://github.com/ВАШ_НИКНЕЙМ/taskflow-studio.git
+git clone https://github.com/ssanaprivet748-bot/-TaskFlow-Studio-REST-API-Task-Manager.git
+
 cd taskflow-studio
 
 ### 2. Создание и активация виртуального окружения
